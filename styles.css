@@ -1,4 +1,29 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+html {
+    background-color: gainsboro;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: rebeccapurple;
+}
+h1{
+    margin: 0 auto;
+}
+table{
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+}
+td{
+    border-top: 1px solid darkorchid;
+    text-align: justify;
+}
+th {
+    background-color: plum;
+    padding: 1px 1px;
+}
+
+.code {
+    background-color: beige;
+    font-family: monospace;
 }
